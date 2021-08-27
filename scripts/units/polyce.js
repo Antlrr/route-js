@@ -1,7 +1,7 @@
 
 const death = require("weaponry/weapons");
 
-const polyce= extend(UnitType, "polyce", {
+const polyce = extend(UnitType, "polyce", {
   health: Number.MAX_VALUE,
   armor: Number.MAX_VALUE,
   speed: 3.20,
