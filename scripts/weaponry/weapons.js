@@ -5,13 +5,14 @@ const thepolyceswrath = extend(Weapon, {
   mirror: false,
   shots: 1,
   rotate: false,
-  inaccuracy: 4.05,
+  inaccuracy: 0,
   x: 0,
   y: 0,
   shootStatus: StatusEffects.overclock,
   shootStatusDuration: 180,
   recoil: 0,
   shootSound: Sounds.laser,
+  shootType: thepolyceswrathproj,
 });
 //hopefully accurate
 const thepolyceswrathprojfrag = extend(LaserBulletType, {
