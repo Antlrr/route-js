@@ -3,8 +3,8 @@
 const thepolyceswrathprojfrag = extend(LaserBulletType, {
   damage: 43000,
   lifetime: 16,
-  width: 8,
-  length: 8 * 13,
+  width: 8 * 4,
+  length: 8 * 26,
   pierce: true,
 });
 
@@ -14,6 +14,7 @@ const thepolyceswrathproj = extend(EmpBulletType, {
   damage: 99999,
   height: 1000,
   width: 1000,
+  hitSize: 120 * 8,
   pierce: true,
   shootEffect: Fx.shootSmall,
   smokeEffect: Fx.shootSmallSmoke,
