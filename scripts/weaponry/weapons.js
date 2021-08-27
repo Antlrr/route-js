@@ -14,7 +14,7 @@ const thepolyceswrathproj = extend(EmpBulletType, {
   damage: 99999,
   height: 1000,
   width: 1000,
-  hitSize: 120 * 8,
+  hitSize: 120,
   pierce: true,
   shootEffect: Fx.shootSmall,
   smokeEffect: Fx.shootSmallSmoke,
