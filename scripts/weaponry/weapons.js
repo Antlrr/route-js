@@ -1,5 +1,5 @@
 
-//frags go first, bullets go second, weapons go third, bullet setters go fourth, and the exporter goes last
+//frags go first, bullets go second, weapons go third, bullet setters go fourth, and the exporter goes
 const thepolyceswrathprojfrag = extend(LaserBulletType, {
   damage: 43000,
   lifetime: 16,
@@ -38,7 +38,7 @@ const thepolyceswrath = extend(Weapon, {
   shootType: thepolyceswrathproj,
 });
 
-thepolyceswrathproj.bullet = thepolyceswrathproj;
+thepolyceswrath.bullet = thepolyceswrathproj;
 
 module.exports = {
   thepolyceswrath: thepolyceswrath
