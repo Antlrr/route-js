@@ -19,7 +19,7 @@ const thepolyceswrathproj = extend(EmpBulletType, {
   shootEffect: Fx.shootSmall,
   smokeEffect: Fx.shootSmallSmoke,
   buildingDamageMultiplier: 10000,
-  fragBullets: 10,
+  fragBullets: 25,
   fragBullet: thepolyceswrathprojfrag,
 })
 
