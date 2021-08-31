@@ -46,6 +46,7 @@ const broomproj = extend(BasicBulletType, {
     speed: 6,
     lifetime: 60 * 1,
     spin: 15,
+    hitSize: 8,
     knockback: 5,
 });
 
