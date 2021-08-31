@@ -42,9 +42,9 @@ const thepolyceswrath = extend(Weapon, {
 const broomproj = extend(BasicBulletType, {
     damage: 15,
     length: 8,
-    height: 8 * 3,
+    height: 8 * 6,
     speed: 6,
-    lifetime: 60 * 2,
+    lifetime: 60 * 1,
     spin: 15,
     knockback: 5,
 });
