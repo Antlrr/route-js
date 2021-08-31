@@ -20,6 +20,6 @@ maidpoly.constructor = () => extend(UnitEntity, {});
 maidpoly.defaultController = () => extend(BuilderAI, {});
 //yeet the broom
 maidpoly.weapons.add(
-    )
+    );
 
 Log.info("Ehehehe~");
