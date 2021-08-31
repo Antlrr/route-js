@@ -1,5 +1,5 @@
 
-const yeet = extend("weaponry/weapons");
+const yeet = require("weaponry/weapons");
 
 const maidpoly = extend(UnitType, "maidpoly", {
     health: 450,
