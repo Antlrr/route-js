@@ -11,6 +11,7 @@ const maidpoly = extend(UnitType, "maidpoly", {
     mineSpeed: 3,
     mineTier: 10,
     itemCapacity: 150,
+    engineSize: 0,
     range: 8 * 30,
     maxRange: 8 * 30,
     flying: true,

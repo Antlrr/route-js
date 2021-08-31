@@ -40,7 +40,7 @@ const thepolyceswrath = extend(Weapon, {
 });
 
 const broomproj = extend(BasicBulletType, {
-    damage: 15,
+    damage: 45,
     length: 8,
     height: 8 * 6,
     speed: 6,
@@ -50,7 +50,7 @@ const broomproj = extend(BasicBulletType, {
 });
 
 const broom = extend(Weapon, {
-  reload: 90,
+  reload: 55,
   shootSound: Sounds.explosion,
   x: 0,
   y: 0,
