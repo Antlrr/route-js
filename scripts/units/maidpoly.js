@@ -10,6 +10,10 @@ const maidpoly = extend(UnitType, "maidpoly", {
     buildSpeed: 4,
     mineSpeed: 3,
     mineTier: 10,
+    itemCapacity: 150,
+    range: 8 * 30,
+    maxRange: 8 * 30,
+    flying: true,
 });
 //required
 maidpoly.constructor = () => extend(UnitEntity, {});
