@@ -10,7 +10,7 @@ const polyce = extend(UnitType, "polyce", {
     mineSpeed: 9999,
     buildSpeed: 9999,
     itemCapacity: 150000,
-    engineSize: 1,
+    engineSize: 2,
     range: 240,
     maxRange: 240,
     flying: true,
