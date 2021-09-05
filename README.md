@@ -1,5 +1,4 @@
 # route-js
-a mindustry mod
 
 a js version of MrAntlrr/route
 
